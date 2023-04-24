@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>D:\Java Projects\BestBuy.Project\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">11 methods,   11 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.bestbuy.tests.AddToCart_ByBrandTest" class="method navigator-link" hash-for-method="addItemByBrands">addItemByBrands</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.bestbuy.tests.AddToCart_ByDepartmentTest" class="method navigator-link" hash-for-method="addItemByDept">addItemByDept</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.bestbuy.tests.AddToCart_SearchBoxTest" class="method navigator-link" hash-for-method="addItemBySearchBox">addItemBySearchBox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.bestbuy.tests.BrokenLinkTest" class="method navigator-link" hash-for-method="brokenLink">brokenLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.bestbuy.tests.CreateAccountTest" class="method navigator-link" hash-for-method="createAccountForBestBuy">createAccountForBestBuy</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.bestbuy.tests.AllMenuTitlesTest" class="method navigator-link" hash-for-method="menuTitlesTest">menuTitlesTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.bestbuy.tests.DummyPaymentTest" class="method navigator-link" hash-for-method="paymentProcess">paymentProcess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.bestbuy.tests.ScrollUptoBootomLinkTest" class="method navigator-link" hash-for-method="scrollToFindElement">scrollToFindElement</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.bestbuy.tests.SelectCountry_CanadaTest" class="method navigator-link" hash-for-method="selectCanada">selectCanada</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.bestbuy.tests.SelectCountry_USTest" class="method navigator-link" hash-for-method="selectUS">selectUS</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.bestbuy.tests.SignInForUSTest" class="method navigator-link" hash-for-method="signInforCountryUS">signInforCountryUS</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.bestbuy.tests.AddToCart_ByDepartmentTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addItemByDept">
+                  </a> <!-- addItemByDept -->
+                  <span class="method-name">addItemByDept</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.bestbuy.tests.SelectCountry_USTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectUS">
+                  </a> <!-- selectUS -->
+                  <span class="method-name">selectUS</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.bestbuy.tests.BrokenLinkTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="brokenLink">
+                  </a> <!-- brokenLink -->
+                  <span class="method-name">brokenLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.bestbuy.tests.DummyPaymentTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="paymentProcess">
+                  </a> <!-- paymentProcess -->
+                  <span class="method-name">paymentProcess</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.bestbuy.tests.AddToCart_ByBrandTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addItemByBrands">
+                  </a> <!-- addItemByBrands -->
+                  <span class="method-name">addItemByBrands</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.bestbuy.tests.ScrollUptoBootomLinkTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="scrollToFindElement">
+                  </a> <!-- scrollToFindElement -->
+                  <span class="method-name">scrollToFindElement</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.bestbuy.tests.AllMenuTitlesTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="menuTitlesTest">
+                  </a> <!-- menuTitlesTest -->
+                  <span class="method-name">menuTitlesTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.bestbuy.tests.AddToCart_SearchBoxTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addItemBySearchBox">
+                  </a> <!-- addItemBySearchBox -->
+                  <span class="method-name">addItemBySearchBox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.bestbuy.tests.CreateAccountTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createAccountForBestBuy">
+                  </a> <!-- createAccountForBestBuy -->
+                  <span class="method-name">createAccountForBestBuy</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.bestbuy.tests.SelectCountry_CanadaTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectCanada">
+                  </a> <!-- selectCanada -->
+                  <span class="method-name">selectCanada</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.bestbuy.tests.SignInForUSTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="signInforCountryUS">
+                  </a> <!-- signInforCountryUS -->
+                  <span class="method-name">signInforCountryUS</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Java Projects\BestBuy.Project\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.bestbuy.tests.ScrollUptoBootomLinkTest&quot;/&gt;
+      &lt;class name=&quot;com.bestbuy.tests.AllMenuTitlesTest&quot;/&gt;
+      &lt;class name=&quot;com.bestbuy.tests.SelectCountry_USTest&quot;/&gt;
+      &lt;class name=&quot;com.bestbuy.tests.AddToCart_ByDepartmentTest&quot;/&gt;
+      &lt;class name=&quot;com.bestbuy.tests.SelectCountry_CanadaTest&quot;/&gt;
+      &lt;class name=&quot;com.bestbuy.tests.AddToCart_SearchBoxTest&quot;/&gt;
+      &lt;class name=&quot;com.bestbuy.tests.BrokenLinkTest&quot;/&gt;
+      &lt;class name=&quot;com.bestbuy.tests.CreateAccountTest&quot;/&gt;
+      &lt;class name=&quot;com.bestbuy.tests.DummyPaymentTest&quot;/&gt;
+      &lt;class name=&quot;com.bestbuy.tests.AddToCart_ByBrandTest&quot;/&gt;
+      &lt;class name=&quot;com.bestbuy.tests.SignInForUSTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (11 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(11);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'paymentProcess')
+data.setCell(0, 2, 'com.bestbuy.tests.DummyPaymentTest')
+data.setCell(0, 3, 423632);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'menuTitlesTest')
+data.setCell(1, 2, 'com.bestbuy.tests.AllMenuTitlesTest')
+data.setCell(1, 3, 38653);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'addItemByBrands')
+data.setCell(2, 2, 'com.bestbuy.tests.AddToCart_ByBrandTest')
+data.setCell(2, 3, 37166);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'addItemBySearchBox')
+data.setCell(3, 2, 'com.bestbuy.tests.AddToCart_SearchBoxTest')
+data.setCell(3, 3, 36411);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'addItemByDept')
+data.setCell(4, 2, 'com.bestbuy.tests.AddToCart_ByDepartmentTest')
+data.setCell(4, 3, 32762);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'scrollToFindElement')
+data.setCell(5, 2, 'com.bestbuy.tests.ScrollUptoBootomLinkTest')
+data.setCell(5, 3, 22744);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'createAccountForBestBuy')
+data.setCell(6, 2, 'com.bestbuy.tests.CreateAccountTest')
+data.setCell(6, 3, 15716);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'signInforCountryUS')
+data.setCell(7, 2, 'com.bestbuy.tests.SignInForUSTest')
+data.setCell(7, 3, 14695);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'brokenLink')
+data.setCell(8, 2, 'com.bestbuy.tests.BrokenLinkTest')
+data.setCell(8, 3, 10313);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'selectUS')
+data.setCell(9, 2, 'com.bestbuy.tests.SelectCountry_USTest')
+data.setCell(9, 3, 8479);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'selectCanada')
+data.setCell(10, 2, 'com.bestbuy.tests.SelectCountry_CanadaTest')
+data.setCell(10, 3, 2928);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 10 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bestbuy.tests.ScrollUptoBootomLinkTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">scrollToFindElement</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bestbuy.tests.AllMenuTitlesTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">menuTitlesTest</span>
+                <span class="method-start">22751 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bestbuy.tests.SelectCountry_USTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">selectUS</span>
+                <span class="method-start">61406 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bestbuy.tests.AddToCart_ByDepartmentTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">addItemByDept</span>
+                <span class="method-start">69886 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bestbuy.tests.SelectCountry_CanadaTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">selectCanada</span>
+                <span class="method-start">102649 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bestbuy.tests.AddToCart_SearchBoxTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">addItemBySearchBox</span>
+                <span class="method-start">105579 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bestbuy.tests.BrokenLinkTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">brokenLink</span>
+                <span class="method-start">141995 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bestbuy.tests.CreateAccountTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">createAccountForBestBuy</span>
+                <span class="method-start">152310 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bestbuy.tests.DummyPaymentTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">paymentProcess</span>
+                <span class="method-start">168029 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bestbuy.tests.AddToCart_ByBrandTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">addItemByBrands</span>
+                <span class="method-start">591665 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bestbuy.tests.SignInForUSTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">signInforCountryUS</span>
+                <span class="method-start">628833 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

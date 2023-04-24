@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-24T18:14:35 IST" name="Suite" finished-at="2023-04-24T18:25:19 IST" duration-ms="643608">
+    <groups>
+    </groups>
+    <test started-at="2023-04-24T18:14:35 IST" name="Test" finished-at="2023-04-24T18:25:19 IST" duration-ms="643608">
+      <class name="com.bestbuy.tests.AddToCart_ByDepartmentTest">
+        <test-method signature="addItemByDept()[pri:8, instance:com.bestbuy.tests.AddToCart_ByDepartmentTest@36902638]" started-at="2023-04-24T18:15:45 IST" name="addItemByDept" finished-at="2023-04-24T18:16:18 IST" duration-ms="32762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addItemByDept -->
+      </class> <!-- com.bestbuy.tests.AddToCart_ByDepartmentTest -->
+      <class name="com.bestbuy.tests.SelectCountry_USTest">
+        <test-method signature="selectUS()[pri:1, instance:com.bestbuy.tests.SelectCountry_USTest@1d2adfbe]" started-at="2023-04-24T18:15:37 IST" name="selectUS" finished-at="2023-04-24T18:15:45 IST" duration-ms="8479" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectUS -->
+      </class> <!-- com.bestbuy.tests.SelectCountry_USTest -->
+      <class name="com.bestbuy.tests.SelectCountry_CanadaTest">
+        <test-method signature="selectCanada()[pri:0, instance:com.bestbuy.tests.SelectCountry_CanadaTest@223d2c72]" started-at="2023-04-24T18:16:18 IST" name="selectCanada" finished-at="2023-04-24T18:16:21 IST" duration-ms="2928" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCanada -->
+      </class> <!-- com.bestbuy.tests.SelectCountry_CanadaTest -->
+      <class name="com.bestbuy.tests.DummyPaymentTest">
+        <test-method signature="paymentProcess()[pri:10, instance:com.bestbuy.tests.DummyPaymentTest@131774fe]" started-at="2023-04-24T18:17:23 IST" name="paymentProcess" finished-at="2023-04-24T18:24:27 IST" duration-ms="423632" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentProcess -->
+      </class> <!-- com.bestbuy.tests.DummyPaymentTest -->
+      <class name="com.bestbuy.tests.CreateAccountTest">
+        <test-method signature="createAccountForBestBuy()[pri:2, instance:com.bestbuy.tests.CreateAccountTest@10e31a9a]" started-at="2023-04-24T18:17:08 IST" name="createAccountForBestBuy" finished-at="2023-04-24T18:17:23 IST" duration-ms="15716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccountForBestBuy -->
+      </class> <!-- com.bestbuy.tests.CreateAccountTest -->
+      <class name="com.bestbuy.tests.BrokenLinkTest">
+        <test-method signature="brokenLink()[pri:5, instance:com.bestbuy.tests.BrokenLinkTest@436813f3]" started-at="2023-04-24T18:16:57 IST" name="brokenLink" finished-at="2023-04-24T18:17:08 IST" duration-ms="10313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- brokenLink -->
+      </class> <!-- com.bestbuy.tests.BrokenLinkTest -->
+      <class name="com.bestbuy.tests.AddToCart_SearchBoxTest">
+        <test-method signature="addItemBySearchBox()[pri:7, instance:com.bestbuy.tests.AddToCart_SearchBoxTest@8f4ea7c]" started-at="2023-04-24T18:16:21 IST" name="addItemBySearchBox" finished-at="2023-04-24T18:16:57 IST" duration-ms="36411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addItemBySearchBox -->
+      </class> <!-- com.bestbuy.tests.AddToCart_SearchBoxTest -->
+      <class name="com.bestbuy.tests.AllMenuTitlesTest">
+        <test-method signature="menuTitlesTest()[pri:4, instance:com.bestbuy.tests.AllMenuTitlesTest@49ec71f8]" started-at="2023-04-24T18:14:58 IST" name="menuTitlesTest" finished-at="2023-04-24T18:15:37 IST" duration-ms="38653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- menuTitlesTest -->
+      </class> <!-- com.bestbuy.tests.AllMenuTitlesTest -->
+      <class name="com.bestbuy.tests.ScrollUptoBootomLinkTest">
+        <test-method signature="scrollToFindElement()[pri:6, instance:com.bestbuy.tests.ScrollUptoBootomLinkTest@515aebb0]" started-at="2023-04-24T18:14:35 IST" name="scrollToFindElement" finished-at="2023-04-24T18:14:58 IST" duration-ms="22744" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollToFindElement -->
+      </class> <!-- com.bestbuy.tests.ScrollUptoBootomLinkTest -->
+      <class name="com.bestbuy.tests.SignInForUSTest">
+        <test-method signature="signInforCountryUS()[pri:3, instance:com.bestbuy.tests.SignInForUSTest@77847718]" started-at="2023-04-24T18:25:04 IST" name="signInforCountryUS" finished-at="2023-04-24T18:25:19 IST" duration-ms="14695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInforCountryUS -->
+      </class> <!-- com.bestbuy.tests.SignInForUSTest -->
+      <class name="com.bestbuy.tests.AddToCart_ByBrandTest">
+        <test-method signature="addItemByBrands()[pri:9, instance:com.bestbuy.tests.AddToCart_ByBrandTest@158d2680]" started-at="2023-04-24T18:24:27 IST" name="addItemByBrands" finished-at="2023-04-24T18:25:04 IST" duration-ms="37166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addItemByBrands -->
+      </class> <!-- com.bestbuy.tests.AddToCart_ByBrandTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

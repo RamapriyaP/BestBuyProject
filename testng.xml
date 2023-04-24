@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.bestbuy.tests.ScrollUptoBootomLinkTest"/>
+      <class name="com.bestbuy.tests.AllMenuTitlesTest"/>
+      <class name="com.bestbuy.tests.SelectCountry_USTest"/>
+      <class name="com.bestbuy.tests.AddToCart_ByDepartmentTest"/>
+      <class name="com.bestbuy.tests.SelectCountry_CanadaTest"/>
+      <class name="com.bestbuy.tests.AddToCart_SearchBoxTest"/>
+      <class name="com.bestbuy.tests.BrokenLinkTest"/>
+      <class name="com.bestbuy.tests.CreateAccountTest"/>
+      <class name="com.bestbuy.tests.DummyPaymentTest"/>
+      <class name="com.bestbuy.tests.AddToCart_ByBrandTest"/>
+      <class name="com.bestbuy.tests.SignInForUSTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
